@@ -1,5 +1,5 @@
 body {
-  background-image:url("studio.png");
+  background-color: rgb(20 ,20,20,1);
   background-position:18% 50%;
   background-repeat: no-repeat;
   background-size: 2350px;
@@ -10,11 +10,28 @@ footer {
   margin:auto;  
 }
 
+#logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  vertical-align: center;
+  display:block;
+  float:left;
+}
+
 .bio-content {
   width: 50%;
   color:white;
   font-weight: bold;
   font-size: 
+}
+
+.film-music-content {
+  width: 80%;
+  color:white;
+  font-weight: bold;
+  font-size: 
+  text-align:center;
+  margin:auto;
 }
 
 .nav-items {
@@ -29,26 +46,33 @@ footer {
 }
 
 .header {
+  top:0px;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(0 ,0,0,1);
   color: white;
   font-family: museo, serif;
   font-style: normal;
   font-weight: 100;
 }
-/*
-.banner-image {
-  font-size: 50px;
-  font-weight: 50px;
-  width: 100%;
-  height: 1000px;
-  background-image: url("landscape.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+.main-content{
+  margin-top:200px;
+}
 
-  vertical-align: center;
 
-}*/
+.mixing-table {
+width: 100%;
+}
+
+.mixing-table td {
+  padding-bottom: 20px;
+}
+
+.sound {
+  padding-right: 55px;
+  width: 60%;
+}
+
 
 .flex-center {
   width: 100%;
@@ -125,20 +149,28 @@ footer {
   list-style: none;
 }
 
+ul {
+}
 /* Main level */
-.menu {     
-  margin: 50px auto;
-  width: 80%;
-  /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
+.menu {    
+  margin-left: -15%; 
+  min-width: 150vw!important;
+
 
 }
 
 .menu > li {
-  width: 25%;
+  display: inline;
+  margin-left: 4px;
+  width: 16vw;
   background: #333;
   float: left;
   position: relative;
   transform: skewX(25deg);
+}
+
+#nogap {
+  margin-left: 0px!important;
 }
 
 .menu a {
@@ -163,7 +195,6 @@ footer {
 /* Dropdown */
 .submenu {
   position: absolute;
-  width: 100%;
   margin-left:5px;
   transform: skewX(-25deg);
   transform-origin: left top;
