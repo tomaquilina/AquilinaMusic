@@ -11,10 +11,12 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </script>
   </head>
 
   <body>
@@ -29,12 +31,12 @@
           <li><a href="">.</a></li>
           <li id="nogap"><a href="index.html">Home</a></li>
           <li><a href="bio.html">Bio</a></li>
-          <li><a href="production.html">Production</a></li>
+          <li><a href="production.html">Productions</a></li>
           <li>
-            <a href="">Services</a>
+            <a>Services</a>
             <ul class="submenu">
               <li><a href="mixing.html">Mixing and Mastering</a></li>
-              <li><a href="filmmusic.html">Film Music</a></li>
+              <li><a href="audiovisual.html">Audio-Visual Media</a></li>
               <li><a href="dj.html">DJ</a></li>
             </ul>     
           </li>
@@ -47,8 +49,30 @@
 
     <div class="main-content">
       
-      <div class="bio-content px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <h1 class="display-4">Gallery</h1>
+      </div>
+
+      <div class="container">
+        <div class="gallery">
+          <img src="img/IMG_6064.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+          <img src="img/IMG_1359.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+          <img src="img/IMG_1696.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+          <img src="img/IMG_8284.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+          <img src="img/IMG_9638.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+          <img src="img/IMG_1362.jpg" alt="" width="100%" height="auto" class="gallery-img" />
+          <img src="img/IMG_6969.png" alt="" width="100%" height="auto" class="gallery-img" />
+
+        </div> 
+      </div>
+
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:800px;">
+          <div class="modal-content">
+            <div class="modal-body">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
    
@@ -61,6 +85,12 @@
     </div>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="gallery.js"></script>
 
   </body>
 </html>

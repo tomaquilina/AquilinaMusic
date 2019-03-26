@@ -29,12 +29,12 @@
           <li><a href="">.</a></li>
           <li id="nogap"><a href="index.html">Home</a></li>
           <li><a href="bio.html">Bio</a></li>
-          <li><a href="production.html">Production</a></li>
+          <li><a href="production.html">Productions</a></li>
           <li>
-            <a href="">Services</a>
+            <a>Services</a>
             <ul class="submenu">
               <li><a href="mixing.html">Mixing and Mastering</a></li>
-              <li><a href="filmmusic.html">Film Music</a></li>
+              <li><a href="audiovisual.html">Audio-Visual Media</a></li>
               <li><a href="dj.html">DJ</a></li>
             </ul>     
           </li>
@@ -47,9 +47,46 @@
 
     <div class="main-content">
       
-      <div class="bio-content px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <h1 class="display-4">Contact</h1>
       </div>
+
+          <section id="hire">
+    <h1>Contact Me</h1>
+    
+    <form>
+        <div class="field name-box">
+            <input type="text" id="name" placeholder="Who Are You?"/>
+            <label for="name">Name</label>
+            <span class="ss-icon"><i class="fas fa-check-circle"></i></span>
+        </div>
+
+        <div class="field email-box">
+            <input type="text" id="email" placeholder="name@email.com"/>
+            <label for="email">Email</label>
+            <span class="ss-icon"><i class="fas fa-check-circle"></i></span>
+        </div>
+      
+      <div class="field email-box">
+          <select class="input-text js-input not-empty">
+            <option value="production">Production</option>
+            <option value="mixing-mastering">Mixing and Mastering</option>
+            <option value="audio-visual">Audio-Visual Media</option>
+            <option value="dj">DJ</option>
+          </select>           
+          <label for="subject">Subject</label>
+            <span class="ss-icon"><i class="fas fa-check-circle"></i></span>
+        </div>
+
+        <div class="field msg-box">
+            <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+            <label for="msg">Msg</label>
+            <span class="ss-icon">check</span>
+        </div>
+
+        <input class="button" type="submit" value="Send" />
+  </form>
+</section>
     </div>
    
 
@@ -61,6 +98,7 @@
     </div>
 
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
   </body>
 </html>
