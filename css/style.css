@@ -1,5 +1,6 @@
 html, body, .header, .nav, .menu {
   min-width: 800px;
+  max-width:100%;
 }
 
 body {
