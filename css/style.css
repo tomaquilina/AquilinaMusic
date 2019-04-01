@@ -211,24 +211,29 @@ footer {
 }
 
 .top {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 100%;
 }
 
-.dj-content div {
-  padding: 20px;
+.top div {
+  padding: 20px; 
+  width: 38%;
+    display:inline-block;
+
+}
+
+#img-cont {
+  float: right;
+  width: 58%;
+  height:100%;
 }
 
 .dj-content img {
-  height: 515px;
-  width: auto;
+  width: 100%;
 }
 
 #festival {
   text-align: center;
-  height: 300px;
-  width: auto;
+  height: 100%;
 }
 
 .mix {
